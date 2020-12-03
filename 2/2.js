@@ -1,5 +1,5 @@
 var fs = require('fs');
-var lines = fs.readFileSync('dayTwo/input.txt').toString().split("\n").filter(Boolean);
+var lines = fs.readFileSync('2/input.txt').toString().split("\n").filter(Boolean);
 
 console.log(part1());
 console.log(part2());
