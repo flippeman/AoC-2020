@@ -1,6 +1,5 @@
 var fs = require('fs');
 var entries = fs.readFileSync('1/input.txt').toString().split("\n");
-console.log(entries);
 
 console.log(part1());
 console.log(part2());
