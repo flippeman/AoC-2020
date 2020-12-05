@@ -31,11 +31,5 @@ function part2() {
 
     if ((row % 2 == 0) && (lines[row][(row/2) % lines[row].length] == "#")) ++fifthCount;
   }
-
-  console.log(firstCount);
-  console.log(fourthCount);
-  console.log(thirdCount);
-  console.log(secondCount);
-  console.log(fifthCount);
   return firstCount * secondCount * thirdCount * fourthCount * fifthCount;
 }
